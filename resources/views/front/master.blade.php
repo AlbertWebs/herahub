@@ -120,27 +120,27 @@
 
                 <li><a  href="#">Destinations <i class="fa fa-angle-down"></i></a>
                 <ul>
-                    <li><a href="destination.html">Africa</a></li>
-                    <li><a href="destination-404.html">Europe </a></li>
-                    <li><a href="destination-404.html">Asia </a></li>
-                    <li><a href="destination-404.html">Australia </a></li>
+                    <li><a href="{{url('/')}}/destination/sample">Africa</a></li>
+                    <li><a href="{{url('/')}}/destination/sample">Europe </a></li>
+                    <li><a href="{{url('/')}}/destination/sample">Asia </a></li>
+                    <li><a href="{{url('/')}}/destination/sample">Australia </a></li>
                     </ul>
                 </li>
                 <li><a  href="#">Countries <i class="fa fa-angle-down"></i></a>
                     <ul>
-                        <li><a href="destination.html">Kenya</a></li>
-                        <li><a href="destination-404.html">Tanzania </a></li>
-                        <li><a href="destination-404.html">Egypt </a></li>
-                        <li><a href="destination-404.html">Uganda </a></li>
+                        <li><a href="{{url('/')}}/destination/sample">Kenya</a></li>
+                        <li><a href="{{url('/')}}/destination/sample">Tanzania </a></li>
+                        <li><a href="{{url('/')}}/destination/sample">Egypt </a></li>
+                        <li><a href="{{url('/')}}/destination/sample">Uganda </a></li>
                         </ul>
                     </li>
                 <li><a href="#">Services <i class="fa fa-angle-down"></i></a>
                   <ul>
-                    <li><a href="#">Flight Booking</a></li>
-                    <li><a href="#">Tours Guide</a></li>
+                    <li><a href="{{url('/services')}}">Flight Booking</a></li>
+                    <li><a href="{{url('/services')}}">Tours Guide</a></li>
                     </ul>
                 </li>
-                <li><a  href="#">Latest News</a>
+                <li><a  href="{{url('/latest-news')}}">Latest News</a>
 
                 </li>
                 <li><a  href="{{url('/contact-us')}}">Contact</a></li>

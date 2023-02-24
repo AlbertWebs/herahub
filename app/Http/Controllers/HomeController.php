@@ -32,4 +32,16 @@ class HomeController extends Controller
         return view('front.services');
     }
 
+    public function latest_news()
+    {
+        return view('front.latest-news');
+    }
+
+    public function destination()
+    {
+        return view('front.destination-single');
+    }
+
+
+
 }
