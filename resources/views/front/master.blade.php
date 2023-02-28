@@ -202,9 +202,9 @@
            <div class="col-md-3 col-md-offset-1">
             <div class="wrap-subfooter">
              <h4>Contact Info</h4>
-             <div class="subfooter-content-right">129 Park street, New York City, NY 10903</div>
-             <div class="subfooter-content-right">Phone: (+6221) 999 999 999</div>
-             <div class="subfooter-content-right"><a href="#">Email: companyname@gmail.com</a></div>
+             <div class="subfooter-content-right">129 Park street, Westalands, NB0</div>
+             <div class="subfooter-content-right">Phone: (+254) 0723014032</div>
+             <div class="subfooter-content-right"><a href="#">Email: info@herahub.co.ke</a></div>
             </div>
            </div>
           </div>
