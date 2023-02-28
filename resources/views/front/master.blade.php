@@ -167,7 +167,7 @@
              <h4>Mission Statement</h4>
              <div class="subfooter-content-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
              <span class="logo">
-                <img alt="logo" src="{{asset('theme/img/logo-white.png')}}">
+                <img style="max-width:300px" alt="logo" src="{{asset('uploads/HERA-HUB-LOGO-04-light.png')}}">
              </span>
             </div>
            </div>
