@@ -102,8 +102,8 @@
            <span class="icon icon-bar"></span></button>
 
           <!-- logo -->
-          <a class="navbar-brand white" href="index.html">
-          <img class="white" alt="logo" src="{{asset('theme/img/logo.png')}}">
+          <a class="navbar-brand white" href="{{url('/')}}">
+          <img class="white" alt="logo" src="{{asset('uploads/logo.jpeg')}}">
           <img class="black" alt="logo" src="{{asset('theme/img/logo-white.png')}}">
           </a>
           <!-- logo end -->
@@ -218,7 +218,7 @@
           <div class="row">
 
           <div class="col-md-6 text-left">
-           <span>Copyright - {{date('Y')}} herahub Travels Agency All Right Reserved</span>
+           <span>Copyright - {{date('Y')}} Hera Hub Solutions Limited All Right Reserved</span>
           </div>
 
           <div class="col-md-6 text-right">

@@ -1,7 +1,7 @@
 /* CSS Document */
 
 
-/* 
+/*
 *
 *
 [Table of contents]
@@ -34,20 +34,20 @@
 	team / #owl-team
 	service / .services img
 	Our Works / .projects-grid
-	projects detail / #projectsBig .item 
+	projects detail / #projectsBig .item
 	footer / footer.main
 	totop / #totop
 	Blog / .blog-simple .blog-text
 	Blog comment / #blog-comment
-	map / #map-1 
+	map / #map-1
 	contact / .wrapaddres
 	totop / #totop
 	Magnific Popup CSS / .mfp-bg
-	Owl Carousel / .owl-prev 
+	Owl Carousel / .owl-prev
 	pagination owl / #owl-testimonial .owl-dots
     404 / .not-found
 	scroll onStep / .onStep
-	
+
 *
 *
 */
@@ -98,8 +98,8 @@ h4              { font-size: 20px; }
 h5              { font-size: 18px; }
 h6              { font-size: 16px; }
 p               { font-size: 13px; }
-p.intro         { 
-    font-size: 15px; 
+p.intro         {
+    font-size: 15px;
     color: #8c8c8c;
 }
 a {
@@ -110,7 +110,7 @@ a {
     transition: all 0.3s ease;
 }
 a:hover, a:active {
-    color: #fc9f1c;
+    color: #199bd8;
     text-decoration: none;
     outline: 0;
     -moz-transition: all 0.3s ease;
@@ -162,7 +162,7 @@ hr {
     line-height: inherit;
 }
 .color {
-    color: #fc9f1c;
+    color: #199bd8;
 }
 .min-left {
     margin-left: -15px;
@@ -196,15 +196,15 @@ button:hover {
 }
 .btn-content {
     position: relative;
-    padding: 8px 20px; 
+    padding: 8px 20px;
     font-size: 10pt;
     font-weight: 500;
     text-align: center;
     letter-spacing: 1px;
     color: #fff;
-    background: #fc9f1c;
+    background: #199bd8;
     border-radius: 2px;
-    border: 3px solid #fc9f1c;
+    border: 3px solid #199bd8;
     outline: none;
     text-shadow: none;
     margin-top: 17px;
@@ -265,13 +265,13 @@ section {
 }
 .devider-left {
     display: block;
-    border-top: 4px solid #ff9219;
+    border-top: 4px solid #162d56;
     width: 45px;
     margin:20px 0 30px 0;
 }
 .devider-center {
     display: block;
-    border-top: 2px solid #ff9219;
+    border-top: 2px solid #162d56;
     width: 93px;
     margin:20px auto;
     margin-bottom: 40px;
@@ -440,7 +440,7 @@ section {
     width: 40px;
     height: 40px;
     border: 3px solid transparent;
-    border-top: 3px solid #fc9f1c;
+    border-top: 3px solid #199bd8;
     top: -3px;
     left: -3px;
     border-radius: 999px;
@@ -551,7 +551,7 @@ section {
     cursor: pointer;
 }
 .social-icons-subnav a:hover, .social-icons-subnav a:hover span{
-    color: #fc9f1c;
+    color: #199bd8;
     border-color: #eceff3;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -683,7 +683,7 @@ header.show {
     text-decoration: none;
 }
 .white nav a:hover {
-    color: #fc9f1c !important;
+    color: #199bd8 !important;
 }
 .white nav a:hover::before {
     display: inline-block;
@@ -708,7 +708,7 @@ header.show {
     white-space: nowrap;
 }
 .white nav a.actived {
-    color: #fc9f1c!important;
+    color: #199bd8!important;
 }
 .white nav ul ul {
     display: none;
@@ -745,11 +745,11 @@ header.show {
 }
 .white nav ul ul li a:hover {
     color: #fff!important;
-    background: #fc9f1c;
+    background: #199bd8;
 }
 .white nav ul ul li a.active {
     color: #fff;
-    background: #fc9f1c;
+    background: #199bd8;
 }
 .white nav ul ul li:last-child {
     border-bottom: none;
@@ -970,7 +970,7 @@ li>a:only-child:after {
 }
 .count-about span.numb {
     font-size: 24pt;
-    color: #fc9f1c;
+    color: #199bd8;
     font-weight: 600;
 }
 .count-about span.detail {
@@ -1003,7 +1003,7 @@ li>a:only-child:after {
 }
 .features:hover a {
     color: #fff;
-    background: #fc9f1c;
+    background: #199bd8;
     border: 3px solid rgba(255, 255, 255, 0);
     -moz-transition: all .6s ease;
     -ms-transition: all .6s ease;
@@ -1026,7 +1026,7 @@ li>a:only-child:after {
 }
 .features span {
     display: block;
-    color: #fc9f1c;
+    color: #199bd8;
     padding: 10px 0 10px 0;
 }
 .features span.number {
@@ -1050,7 +1050,7 @@ li>a:only-child:after {
     line-height: 40px;
     color: #fff;
     background: rgba(255, 255, 255, 0);
-    border: 3px solid #fc9f1c;
+    border: 3px solid #199bd8;
     outline: none;
     text-shadow: none;
     margin: 0 auto;
@@ -1223,7 +1223,7 @@ div.frm-search #sform .form-group{
 .btn-frm-search{
     float: left;
     color: #fff;
-    background: #ff9219;
+    background: #162d56;
     border: 0px;
     padding: 8px 40px;
     font-size: 10pt;
@@ -1246,7 +1246,7 @@ div.frm-search #sform .btn-frm-search{
     float: left;
     color: #fff;
     width: 100%;
-    background: #ff9219;
+    background: #162d56;
     border: 0px;
     padding: 8px 40px;
     font-size: 10pt;
@@ -1314,7 +1314,7 @@ select.cust-select::-ms-expand {
 }
 .box-icon .icon-choose {
     font-size: 48px;
-    color: #fc9f1c;
+    color: #199bd8;
     margin-right: 30px;
 }
 .box-icon .text h3 {
@@ -1353,7 +1353,7 @@ select.cust-select::-ms-expand {
 .gal-home-content{
     width: 100%;
     border: 1px solid #ddd;
-    border-top: 0px; 
+    border-top: 0px;
     padding: 20px;
 }
 .gal-home-content p{
@@ -1365,14 +1365,14 @@ select.cust-select::-ms-expand {
     margin-top: 5px;
 }
 .gal-home-content .price{
-    color: #ff9219;
+    color: #162d56;
     font-size: 14pt;
     font-weight: 600;
     text-align: right;
 }
 .gal-home-content .star-content {
     display: inline-block;
-    color: #ff9219;
+    color: #162d56;
     font-size: 11px;
     font-weight: 400;
     margin:5px 5px 0 0;
@@ -1398,7 +1398,7 @@ select.cust-select::-ms-expand {
     height: 100%;
 }
 #testimony blockquote {
-    border: 1px solid #fc9f1c;
+    border: 1px solid #199bd8;
     font-style: italic;
     padding: 40px;
 }
@@ -1442,7 +1442,7 @@ select.cust-select::-ms-expand {
     border-bottom: 2px solid #fff;
 }
 #tag-country .list-country:hover{
-    border-bottom: 2px solid #ff9219;
+    border-bottom: 2px solid #162d56;
 }
 #tag-country .list-country sup{
     font-size: 11px;
@@ -1462,7 +1462,7 @@ select.cust-select::-ms-expand {
     opacity:.8;
 }
 .tag-country .list-country:hover{
-    border-bottom: 1px solid #ff9219;
+    border-bottom: 1px solid #162d56;
 }
 .tag-country .list-country sup{
     font-size: 11px;
@@ -1593,7 +1593,7 @@ select.cust-select::-ms-expand {
 }
 .team .devider-recent-2 {
     display: block;
-    border-top: 2px solid #fc9f1c;
+    border-top: 2px solid #199bd8;
     margin: 0 auto;
     width: 40%;
     margin-top: 15px;
@@ -1625,7 +1625,7 @@ select.cust-select::-ms-expand {
     background: #f8f8f8;
     padding: 30px;
     margin: 30px 0 30px 0;
-    border-left: 5px solid #fc9f1c;
+    border-left: 5px solid #199bd8;
 }
 ul#services-list {
     padding-left: 0px;
@@ -1692,7 +1692,7 @@ ul#services-list {
     line-height: 40px;
     color: #fff;
     background: rgba(255, 255, 255, 0);
-    border: 3px solid #fc9f1c;
+    border: 3px solid #199bd8;
     outline: none;
     text-shadow: none;
     margin: 15px auto;
@@ -1705,7 +1705,7 @@ ul#services-list {
 }
 .btn-download:hover {
     color: #fff;
-    background: #fc9f1c;
+    background: #199bd8;
     border: 3px solid rgba(255, 255, 255, 0);
     -moz-transition: all .6s ease;
     -ms-transition: all .6s ease;
@@ -1856,7 +1856,7 @@ ul#services-list {
     transition: all .3s ease-in-out;
 }
 #filter-porto li.filt-projects:hover, #filter-porto li.filt-projects-w:hover {
-    border: 1px solid #fc9f1c;
+    border: 1px solid #199bd8;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1982,13 +1982,13 @@ ul#services-list {
 .grid-item img{
     margin-bottom:30px;
 }
-.service-hotel span{ 
-    display:block; 
-    letter-spacing:.01em; 
+.service-hotel span{
+    display:block;
+    letter-spacing:.01em;
     line-height:24pt;
 }
-.service-hotel i{ 
-    color:#fc9f1c; 
+.service-hotel i{
+    color:#199bd8;
     margin-right:5px;
 }
 .service-hotel .price{
@@ -1997,11 +1997,11 @@ ul#services-list {
     font-size:44pt;
     text-align:left;
     font-weight:600;
-    color:#fc9f1c;
+    color:#199bd8;
     margin-top:10px;
     margin-bottom:30px;
 }
-.service-hotel .price sub{ 
+.service-hotel .price sub{
     font-size:12pt;
     font-weight:400;
 }
@@ -2025,7 +2025,7 @@ ul#services-list {
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 2px;
-  background: #fc9f1c; 
+  background: #199bd8;
   margin-top: 30px;
   outline: none;
   text-shadow: none;
@@ -2036,7 +2036,7 @@ ul#services-list {
   transition: all 0.3s ease;
 }
 a.btn-book { color:#fff; }
-.btn-book:hover {   
+.btn-book:hover {
   background: #999;
   border: 1px solid rgba(255, 255, 255, 0);
   -moz-transition: all 0.3s ease;
@@ -2113,7 +2113,7 @@ footer.main .social-icons {
     background: #f8f8f8;
     padding: 30px;
     margin: 30px 0 30px 0;
-    border-left: 5px solid #fc9f1c;
+    border-left: 5px solid #199bd8;
 }
 .blog-simple .blog-text .heading {
     margin-top: 15px;
@@ -2165,7 +2165,7 @@ ul.pagination li a {
 }
 ul.pagination li a:hover {
     color: #fff;
-    background: #fc9f1c;
+    background: #199bd8;
 }
 /* post meta */
 
@@ -2296,7 +2296,7 @@ aside .widget, .widget {
     line-height: 24px;
     color: #969595;
     background: #fff !important;
-    border: 1px solid #fc9f1c!important;
+    border: 1px solid #199bd8!important;
     border-radius: 0;
     box-shadow: none;
 }
@@ -2342,7 +2342,7 @@ aside .widget, .widget {
 }
 .widget .tagcloud a:hover {
     text-decoration: none;
-    border: 1px solid #fc9f1c;
+    border: 1px solid #199bd8;
 }
 .widget .recent div {
   margin-bottom: 20px;
@@ -2375,11 +2375,11 @@ aside .widget, .widget {
 }
 .widget .tags div a:hover {
   text-decoration: none;
-  border: 1px solid #fc9f1c;
+  border: 1px solid #199bd8;
 }
 .devider-widget {
   display: block;
-  border-bottom: 2px solid #fc9f1c;
+  border-bottom: 2px solid #199bd8;
   margin-bottom: 30px;
   margin-top: 20px;
   width: 60px;
@@ -2412,7 +2412,7 @@ aside .widget, .widget {
     background: #333;
 }
 .input-group-btn button:hover span.icon {
-    background: #fc9f1c;
+    background: #199bd8;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
@@ -2517,7 +2517,7 @@ aside .widget, .widget {
 #commentform input:focus {
     color: #606060;
     background: rgba(0, 0, 0, 0);
-    border: 1px solid #fc9f1c;
+    border: 1px solid #199bd8;
 }
 #commentform textarea {
     width: 100%;
@@ -2531,7 +2531,7 @@ aside .widget, .widget {
 #commentform textarea:focus {
     color: #606060;
     background: rgba(0, 0, 0, 0);
-    border: 1px solid #fc9f1c;
+    border: 1px solid #199bd8;
 }
 #commentform button.btn, #commentform input[type="submit"] {
     width: auto;
@@ -2544,7 +2544,7 @@ aside .widget, .widget {
     line-height: 35px;
     color: #fff;
     border: 2px solid rgba(0, 0, 0, 0);
-    background: #fc9f1c;
+    background: #199bd8;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 2px;
@@ -2578,7 +2578,7 @@ a.btn-blog {
     border: 1px solid rgba(0, 0, 0, .1);
 }
 a.btn-blog:hover {
-    border: 1px solid #fc9f1c;
+    border: 1px solid #199bd8;
 }
 /* Blog comment end */
 
@@ -2709,7 +2709,7 @@ address.cont-1 span a {
     line-height: 35px;
     color: #fff;
     border: 2px solid rgba(0, 0, 0, 0);
-    background: #fc9f1c;
+    background: #199bd8;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 2px;
@@ -2755,7 +2755,7 @@ address.cont-1 span a {
 #totop {
     width: 35px;
     height: 35px;
-    background: #fc9f1c;
+    background: #199bd8;
     line-height: 35px;
     position: fixed;
     right: 10px;
@@ -2823,10 +2823,10 @@ address.cont-1 span a {
 }
 #content-commerce .table-responsive table th{
     font-size:13pt;
-    letter-spacing:.6px;    
+    letter-spacing:.6px;
 }
 #content-commerce .table-responsive table .flexCont {
-  width:80%;  
+  width:80%;
   height:180px;
   display: flex;
   flex-direction: column;
@@ -2843,7 +2843,7 @@ address.cont-1 span a {
 #content-commerce .table-responsive table .price{
     font-size:17pt;
     font-weight: bold;
-    color: #fc9f1c;
+    color: #199bd8;
 }
 #content-commerce .table-responsive table .disc{
     font-size:11pt;
@@ -2866,16 +2866,16 @@ address.cont-1 span a {
     cursor:pointer;
 }
 .commerce-step a:hover, .commerce-step a.active{
-    color:#fc9f1c;
+    color:#199bd8;
 }
 .commerce-step a:last-child{
     border-right:0px solid #fff;
-    
+
 }
 .commerce-step a:first-child{
     padding:0 15px 0 0;
 }
-.btn-commerce { 
+.btn-commerce {
   display: block;
   position:relative;
   width: 160px;
@@ -2887,7 +2887,7 @@ address.cont-1 span a {
   line-height: 35px;
   color: #606060;
   background: rgba(255,255,255,0);
-  border: 3px solid #fc9f1c;
+  border: 3px solid #199bd8;
   outline: none;
   text-shadow: none;
   margin-top:30px;
@@ -2898,9 +2898,9 @@ address.cont-1 span a {
   -o-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-.btn-commerce:hover { 
+.btn-commerce:hover {
   color: #fff;
-  background: #fc9f1c;
+  background: #199bd8;
   border: 3px solid rgba(255, 255, 255, 0);
   -moz-transition: all .6s ease;
   -ms-transition: all .6s ease;
@@ -2909,7 +2909,7 @@ address.cont-1 span a {
 .btn-commerce:hover .shine{
     -webkit-animation: sheen .6s alternate;
     animation: sheen .6s alternate;
-    } 
+    }
 .btn-commerce:hover a{ color:#fff;}
 .checkbox{
     padding:10px 0 10px 0;
@@ -2926,7 +2926,7 @@ text-align:center;
 line-height:45px;
 color:#fff;
 border:2px solid rgba(0,0,0,0);
-background:#fc9f1c;
+background:#199bd8;
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
 border-radius: 0px;
@@ -2941,7 +2941,7 @@ cursor:pointer;
 -o-transition: all 0.3s ease;
 transition: all 0.3s ease;
 }
-.btn-ecom:hover, a.btn-ecom:hover{ 
+.btn-ecom:hover, a.btn-ecom:hover{
 color:#fff;
 background:#090c0d;
 line-height:45px;
@@ -3008,8 +3008,8 @@ font-size: 11pt;
 font-weight:500;
 }
 span.round-tabs.step{
-border: 2px solid #fc9f1c;
-color: #fc9f1c;
+border: 2px solid #199bd8;
+color: #199bd8;
 }
 span.round-tabs.step:before{
   font-family: FontAwesome;
@@ -3082,7 +3082,7 @@ background: transparent;
     content: '';
     width: 12px;
     height: 12px;
-    background: #fc9f1c;
+    background: #199bd8;
     position: absolute;
     top: 3px;
     left: 3px;
@@ -3571,7 +3571,7 @@ img.mfp-img {
     .modal-login .btn {
         font-size: 11pt;
         letter-spacing: 1px;
-        background: #fc9f1c;
+        background: #199bd8;
         border: none;
         border-radius: 0px;
         line-height: normal;
@@ -3758,7 +3758,7 @@ form.post-password-form input[type="password"] {
     line-height: 24px;
     color: #969595;
     background: #fff !important;
-    border: 1px solid #fc9f1c!important;
+    border: 1px solid #199bd8!important;
     border-radius: 0;
     box-shadow: none;
     margin-left: 10px;
