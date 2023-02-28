@@ -3,16 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hera Hub | Interactive Travel Partner</title>
+    <title>Hera Hub Solutions Limited | Travel With Ease</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <!-- favicon -->
-    <link href="img/favicon.gif" rel="icon" sizes="32x32" type="image/png">
-    <meta content="" name="description">
-    <meta content="" name="author">
-    <meta content="" name="keywords">
+    <link href="{{url('/')}}/uploads/favicon.png" rel="icon" sizes="32x32" type="image/png">
+    <meta content="We are a travel solutions company based in Eastern Africa, Our main Goal is to make it easy for you " name="description">
+    <meta content="Tash Toons" name="author">
+    <meta content="Travel, Hera Hub" name="keywords">
 
     {{-- og meta tags --}}
+    <link rel="canonical" href="{{url('/')}}"/>
+    <meta name="author" content="Designekta Studios">
+    <meta property="og:description" content="We are a travel solutions company based in Eastern Africa, Our main Goal is to make it easy for you ">
+    <meta property="og:image" content="{{url('/')}}/uploads/favicon.png" />
+    <meta property="fb:app_id" content="431980657174772" />
+    <meta property="og:title" content="Hera Hub Solutions Limited | Travel With Ease " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{url('/')}}" />
 
+    <meta name="twitter:title" content="Hera Hub Solutions Limited | Travel With Ease" />
+    <meta name="twitter:site" content="@herahubsolutions" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@herahubsolutions" />
+    <meta name="_token" content="XBh6AVw8dkRSZWteUveqqKxRv0WefyHnhIA79b6C">
     {{-- og meta tags --}}
 
 
