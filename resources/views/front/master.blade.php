@@ -103,8 +103,8 @@
 
           <!-- logo -->
           <a class="navbar-brand white" href="{{url('/')}}">
-          <img class="white" alt="logo" src="{{asset('uploads/logo.jpeg')}}">
-          <img class="black" alt="logo" src="{{asset('theme/img/logo-white.png')}}">
+          <img class="white" alt="logo" src="{{asset('uploads/HERA-HUB-LOGO-04-dark.png')}}">
+          <img class="black" alt="logo" src="{{asset('uploads/HERA-HUB-LOGO-04-light.png')}}">
           </a>
           <!-- logo end -->
 
