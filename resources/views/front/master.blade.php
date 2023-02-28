@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Plesire | Interactive Travel Template</title>
+    <title>Hera Hub | Interactive Travel Partner</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <!-- favicon -->
     <link href="img/favicon.gif" rel="icon" sizes="32x32" type="image/png">
