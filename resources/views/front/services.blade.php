@@ -1,6 +1,8 @@
 @extends('front.master')
 
 @section('content')
+@foreach ($Services as $Service)
+
 
 
       <!-- subheader -->
@@ -9,9 +11,9 @@
           <div class="row">
             <div class="col-md-12">
               <h1 class="big-heading">
-                Our Service
+                {{$Service->title}}
               </h1>
-              <p>Varius blandit sit amet</p>
+              <p style="max-width:800px;">{{$Service->meta}}</p>
             </div>
         </div>
        </div>
@@ -25,57 +27,40 @@
             <div class="col-md-9">
               <div class="row">
                 <div class="col-md-12 onStep" data-animation="fadeInUp" data-time="300">
-                  <img alt="imgservices" class="img-responsive" src="{{asset('theme/img/serv.jpg')}}">
+                  <img alt="imgservices" class="img-responsive" src="{{url('/')}}/uploads/services/{{$Service->image}}">
                   <h2 class="big-heading">
-                    Blue Ocean <span class="color">Island</span>
+                     <span class="color">{{$Service->title}}</span>
                   </h2>
 
                   <p>
-                    <em>An international firm of architects, planners and interior designers specialising in a wide range of commercial, residential and public sector projects.</em>
+                    <blockquote>
+                        {!!html_entity_decode($Service->meta)!!}
+                      </blockquote>
                   </p>
 
                   <p>
-                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
+                    {!!html_entity_decode($Service->content)!!}
                   </p>
                 </div>
 
-                <div class="col-md-12">
-                  <blockquote>
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-                    elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-                  </blockquote>
-                </div>
-
-                <div class="col-md-12">
-                  <p>
-                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam.
-                  </p>
-                </div>
               </div>
             </div>
 
             <div class="col-md-3 onStep" data-animation="fadeInUp" data-time="600">
               <div class="widget">
                 <ul id="services-list">
-                  <li>
-                    <a href="#">Luxury Asia Travel</a>
-                  </li>
+                  <?php
+                     $Other = DB::table('services')->get();
+                  ?>
+                  @foreach ($Other as $other)
+                    @if($Service->id == $other->id)
 
-                  <li class="active">
-                    <a href="#">Blue Ocean Island</a>
-                  </li>
-
-                  <li>
-                    <a href="#">Wild Tour</a>
-                  </li>
-
-                  <li>
-                    <a href="#">The Kingdom of West</a>
-                  </li>
-
-                  <li>
-                    <a href="#">An Asian Temple</a>
-                  </li>
+                    @else
+                    <li>
+                        <a href="{{url('/services')}}/{{$other->slung}}">{{$other->title}}</a>
+                    </li>
+                    @endif
+                  @endforeach
                 </ul>
               </div>
 
@@ -90,7 +75,7 @@
                   </p>
 
                   <div class="btn-download onStep" data-animation="fadeInUp" data-time="300">
-                    <span class="shine"></span><a class="link-class" href="#">DOWNLOAD NOW</a>
+                    <span class="shine"></span><a class="link-class" href="#">Go</a>
                   </div>
                 </div>
               </div>
@@ -99,5 +84,5 @@
         </div>
       </section>
       <!-- services end -->
-
+@endforeach
 @endsection

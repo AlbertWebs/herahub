@@ -149,14 +149,12 @@
                     </li>
                 <li><a href="#">Services <i class="fa fa-angle-down"></i></a>
                     <ul>
-                        <li><a href="{{url('/services')}}">Air Ticketing</a></li>
-                        <li><a href="{{url('/services')}}">Car Rental</a></li>
-                        <li><a href="{{url('/services')}}">Hotel Bookings</a></li>
-                        <li><a href="{{url('/services')}}">Airport Transfers</a></li>
-                        <li><a href="{{url('/services')}}">Visa Processing </a></li>
-                        <li><a href="{{url('/services')}}">Travel Insurance</a></li>
-                        <li><a href="{{url('/services')}}">Charter Services</a></li>
-                        <li><a href="{{url('/services')}}">Group Travel</a></li>
+                        <?php
+                            $Services = DB::table('services')->get()
+                        ?>
+                        @foreach ($Services as $service)
+                        <li><a href="{{url('/services')}}/{{$service->slung}}">{{$service->title}}</a></li>
+                        @endforeach
 
                     </ul>
                 </li>

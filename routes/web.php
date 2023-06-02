@@ -19,6 +19,7 @@ Route::get('/destination/sample', [App\Http\Controllers\HomeController::class, '
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
 Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/services', [App\Http\Controllers\HomeController::class, 'services'])->name('services');
+Route::get('/services/{slung}', [App\Http\Controllers\HomeController::class, 'service'])->name('service');
 Route::get('/latest-news', [App\Http\Controllers\HomeController::class, 'latest_news'])->name('latest-news');
 
 

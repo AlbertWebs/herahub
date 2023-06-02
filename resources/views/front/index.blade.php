@@ -383,6 +383,36 @@
      </section>
      <!-- testimony end -->
 
+      <!-- section features -->
+      <section class="whitepage no-bottom no-top no-padding">
+        <div class="container-fluid">
+           <div class="row">
+              <div class="no-gutter">
+                <?php
+                     $Others = DB::table('services')->limit('6')->get();
+                  ?>
+                  @foreach($Others as $Other)
+                 <div class="col-md-4" data-animation="fadeInRight" data-time="{{$Other->id}}00">
+                    <div class="features no-margin">
+                       <div class="bg-imgs" style="width: 100%;     padding: 60px;     background: url('{{url('/')}}/uploads/services/{{$Other->image}}');     overflow-x: hidden;    background-size: cover;    background-position: center;  background-color: rgba(0,0,0,.5); background-blend-mode: multiply;">
+                          <h3 class="big-heading">{{$Other->title}}
+                            {{-- <sup class="subtour">
+                                7 Tours
+                            </sup> --}}
+                         </h3>
+                          <p class="content" style="min-height:180px">{{$Other->meta}}
+                          </p>
+                          <a href="#"><span class="shine"></span>View More</a>
+                       </div>
+                    </div>
+                 </div>
+                 @endforeach
+              </div>
+           </div>
+        </div>
+     </section>
+      <!-- section features end -->
+
     <!--  gallery home -->
     <section aria-label="gallery">
       <div class="container-fluid m-5-hor">
